@@ -108,7 +108,7 @@ function findGroup(arr) {
     n = arr.length
     if (n == 1) {
         return 8
-    } else if ((n == 2) || (n == 4) || (n ==6)  || (n ==9) || (n ==12))
+    } else if ((n == 2) || (n == 4) || (n ==6)  || (n ==9) || (n ==12) || (n == 16))
     {
         return arr[n-1]
     } else if ((n == 3) || (n ==5)) {
