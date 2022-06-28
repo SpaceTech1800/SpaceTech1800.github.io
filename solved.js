@@ -133,9 +133,9 @@ function findperiod(n) {
         return 5
     }
     else if(( n >= 55 && n <= 56)||(n >= 81 || n <= 86)) {
-        return 5
+        return 6
     }  else if (n >= 87 && n <= 88) {
-        return 3
+        return 7
     } 
 }
 
